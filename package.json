@@ -2,11 +2,11 @@
   "name": "aws-ec2-node-api-demo",
   "version": "1.0.0",
   "description": "This is a demo Node.js API for use on testings in AWS EC2",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "node server.test.js",
+    "start": "node server.js"
   },
   "author": "mattd-silva22",
   "license": "ISC"
